@@ -5,7 +5,8 @@
 html,
 body {
   --gray: hsl(240, 9%, 89%);
-  --black: hsl(240, 6%, 13%)
+  --black: hsl(240, 6%, 13%);
+  --gold: hsl(50, 100%, 50%);
 
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -70,6 +71,11 @@ a {
   gap: 0.75rem;
   justify-content: center;
   align-items: center;
+}
+
+
+li a:hover {
+  border-top: 3px solid var(--gold);
 }
 
 p {
