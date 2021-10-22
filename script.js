@@ -2,7 +2,7 @@ const LinksSocialMedia = {
   github: 'rildodev',
   youtube: 'RildoMaciel',
   facebook: 'rildomaciel',
-  instagram: 'rildoberto',
+  instagram: 'rildoberto/',
   twitter: 'rildoberto'
 }
 
