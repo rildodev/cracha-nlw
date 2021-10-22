@@ -19,9 +19,10 @@ body {
 }
 
 main {
-  background: url(./images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(./images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -29,6 +30,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
 
   color: var(--gray);
 }
@@ -57,7 +59,6 @@ main {
 
 h1 {
   font-size: 1.5rem;
-
   margin-top: 1.5rem;
 }
 
