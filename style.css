@@ -35,6 +35,11 @@ main {
   color: var(--gray);
 }
 
+.container li:hover {
+  background-color: var(--gold);
+}
+
+
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
@@ -72,11 +77,6 @@ a {
   gap: 0.75rem;
   justify-content: center;
   align-items: center;
-}
-
-
-li a:hover {
-  border-top: 3px solid var(--gold);
 }
 
 p {
