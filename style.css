@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 * {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -9,20 +13,26 @@ body {
   --gold: hsl(50, 100%, 50%);
 
   height: 100%;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased; /* suavizar fonts */
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* suavizar fonts */
+
+  /* plano de fundo desktop */
+  background: url(images/desktop.png) no-repeat center/cover;
+  background-color: #121214;
 }
 
 body {
   display: grid;
   place-items: center;
+
+  background-size: 100% 100%;
 }
 
 main {
   background: url(./images/background.svg) no-repeat center/cover;
-  width: 100vw;
+  min-width: 375px;
   min-height: 812px;
-  height: 100vh;
 }
 
 .container {
@@ -31,19 +41,23 @@ main {
   margin-right: auto;
   text-align: center;
 
-
   color: var(--gray);
 }
 
-.container li:hover {
-  background-color: var(--gold);
+.container li:hover, #whatsapp:hover {
+  border-bottom: 3px solid var(--gold);
 }
 
+#whatsappIcon {
+  width: 48px;
+}
+
+
+/* Div da foto + logo da rocketseat */
 
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
-
   position: relative;
 }
 
@@ -51,16 +65,18 @@ main {
   position: absolute;
   top: -15px;
   z-index: 1;
+  animation: spin 30s linear infinite;
 }
 
-.avatar > img {
+.avatar>img {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
 
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-
 }
+
+/* Nome + ghub */
 
 h1 {
   font-size: 1.5rem;
@@ -89,8 +105,17 @@ ul {
   list-style: none;
   padding: 0;
 
-  display: flex; /* itens na horizontal */
-  gap: 0.5rem; /* espaçamento entre elementos ul */
+  display: flex;
+  /* itens na horizontal */
+  gap: 0.5rem;
+  /* espaçamento entre elementos ul */
 
-  justify-content: center; /* alinhar elementos ao centro */
+  justify-content: center;
+  /* alinhar elementos ao centro */
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
 }
