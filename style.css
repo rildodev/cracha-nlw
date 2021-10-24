@@ -45,11 +45,13 @@ main {
 }
 
 .container li:hover, #whatsapp:hover {
-  border-bottom: 3px solid var(--gold);
+  background-color: var(--gold);
 }
 
-#whatsappIcon {
+#whatsappIcon, #linkedinIcon, #instagramIcon {
+  background-color: var(--gray);
   width: 48px;
+  height: 48px;
 }
 
 
