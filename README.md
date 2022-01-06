@@ -23,7 +23,7 @@ Este projeto foi criado pela Rocketseat e apresentado no NLW Heat, o último NLW
 <h2 id="layout">:triangular_ruler: Layout Mobile</h2>
 
 Cracha exclusivo para uso no evento DoWhile 2021 🚀<br>
-O projeto também pode ser encontrado [neste link](https://yasminvieira.github.io/NLW-Heat/)
+O projeto também pode ser encontrado [neste link](https://rildodev.github.io/cracha-nlw/)
 
 <p align="center">
   <img alt="Demonstração" src="https://github.com/YasminVieira/NLW-Heat/blob/main/images/cracha.jpg" width="230px" />
