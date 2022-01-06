@@ -31,7 +31,7 @@ O projeto também pode ser encontrado [neste link](https://rildodev.github.io/cr
 
 <h2 id="about-me">👦 Sobre mim</h2>
 
-Meu nome é Rildo Maciel, tenho 31 anos, paraibano e estou cursando Análise e Desenvolvimento de Sistemas. Busco minha entrada na área de trabalho como desenvolvedor, principalmente usando JavaScript como linguagem. Atualmente, estou focada em entender melhor conceitos mais avançados de HTML e CSS. <br>
+Meu nome é Rildo Maciel, tenho 31 anos, paraibano e estou cursando Análise e Desenvolvimento de Sistemas. Busco minha entrada na área de trabalho como desenvolvedor, principalmente usando JavaScript como linguagem. Atualmente, estou focado em entender melhor conceitos mais avançados de HTML, CSS e JavaScript. <br>
  
 > • [Linkedin](https://www.linkedin.com/in/rildo-maciel-berto-da-silva-4430a9221/)<br>
 > • [Rocketseat](https://app.rocketseat.com.br/me/rildo-maciel-berto-da-silva-04330)
