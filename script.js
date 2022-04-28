@@ -1,6 +1,6 @@
 const LinksSocialMedia = {
   github: 'rildodev',
-  linkedin: '/in/rildo-maciel-berto-da-silva-4430a9221/',
+  linkedin: '/in/rildomaciel/',
   instagram: 'rildoberto'
 }
 
